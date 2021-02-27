@@ -27,8 +27,14 @@
     "indent": ["error", "tab"],
     "linebreak-style": ["error", "unix"],
     "no-console": "off",
+    "no-unused-vars":"warn",
     "quotes": ["error", "single"],
     "semi": ["error", "never"],
     "prettier/prettier": ["error", { "singleQuote": true }]
-  }
+  },
+  "settings": {
+    "react": {
+        "version": "detect"
+    }
+}
 }
